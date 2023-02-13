@@ -62,6 +62,12 @@ describe("tseting animals array", () => {
 
     it("should add animal to the beginning of the array", () =>{
         animals.unshift("rabbit");
-        expect(animals[0]).toBe("rabiit");
+        expect(animals[0]).toBe("rabbit");
+    })
+});
+
+describe("testing something new", () =>{
+    it.only("true should be truthy", () =>{
+        expect(true).toBeTruthy();
     })
 })
